@@ -26,7 +26,8 @@ describe('registry', () => {
       [services.ibcDomains]: true,
       [services.stargazeNames]: true,
       [services.spaceIds]: true,
-      [services.sns]: true
+      [services.sns]: true,
+      [services.ans]: true
     })
   })
 
@@ -106,6 +107,7 @@ describe('registry', () => {
         ibcDomains: null,
         stargazeNames: null,
         sns: null,
+        ans: null,
         spaceIds: null
       })
     },
@@ -121,6 +123,7 @@ describe('registry', () => {
         icns: null,
         ibcDomains: null,
         sns: null,
+        ans: null,
         stargazeNames: 'cosmos19vf5mfr40awvkefw69nl6p3mmlsnacmm28xyqh',
         spaceIds: null
       })
@@ -138,6 +141,7 @@ describe('registry', () => {
         ibcDomains: null,
         stargazeNames: null,
         sns: null,
+        ans: null,
         spaceIds: 'sei1tmew60aj394kdfff0t54lfaelu3p8j8lz93pmf'
       })
     },
@@ -195,6 +199,7 @@ describe('registry', () => {
         ibcDomains: 'leapwallet.cosmos',
         stargazeNames: 'messi.cosmos',
         sns: null,
+        ans: null,
         spaceIds: null
       })
     }
@@ -212,6 +217,7 @@ describe('registry', () => {
         ibcDomains: 'leapwallet.archway',
         stargazeNames: 'messi.archway',
         sns: null,
+        ans: null,
         spaceIds: null
       })
     }
@@ -229,6 +235,7 @@ describe('registry', () => {
         ibcDomains: null,
         stargazeNames: null,
         sns: null,
+        ans: null,
         spaceIds: 'allen.sei'
       })
     }
